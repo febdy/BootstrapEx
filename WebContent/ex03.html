@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link href="/boots/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/boots/assets/css/common.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="/boots/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="/boots/assets/bootstrap/js/bootstrap.js"></script>
+
+
+<title>Insert title here</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" 
+						 data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>					
+						<a class="navbar-brand" href=""><img src="/boots/assets/images/logo.png"></a>
+					</div>
+	
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="#">프로필</a></li>
+							<li><a href="#">게시판</a></li>
+							<li><a href="#">방명록</a></li>
+							<li><a href="#">갤러리</a></li>
+						</ul>
+						
+						<ul class="nav navbar-nav pull-right">
+							<li><a href="#">로그인</a></li>
+							<li><a href="#">회원가입</a></li>
+						</ul>
+					</div>									
+				</div>
+			</div> <!--  container -->
+		</div> <!-- container-fluid -->
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<img class="profile img-thumbnail" src="/boots/assets/images/profile.png">
+				<p>이름</p>
+				<p>아이디</p>
+			</div>
+			<div class="col-md-10">
+				<ol class="breadcrumb">
+					<li>mysite</li>
+					<li>게시판</li>
+					<li>리스트</li>
+				</ol>
+
+				<form action="" method="post">
+				
+				<div class="col-md-1">제목</div>
+				<div class="col-md-9">
+					<input class="form-control title" type="text" name="title" placeholder="제목을 입력해주세요.">				
+				</div>
+				<div class="col-md-2">
+					<select class="form-control">
+						<option>HI</option>
+						<option>HI</option>
+						<option>HI</option>
+					</select>		
+				</div>
+				
+				<div class="form-group">
+					<div class="col-md-1">내용</div>
+					<div class="col-md-11">
+						<textarea class="form-control" rows="10" cols="100%" placeholder="내용을 입력해주세요."></textarea>
+					</div>
+				</div>
+			
+				<div class="form-group">
+					<label><input type="checkbox">사과</label>  
+					<label><input type="radio">바나나</label><br>
+					<input type="file" id="exampleInputFile">
+				</div>
+				
+				</form>
+				
+				<button type="button" class="btn btn-info pull-right btn-sm">글쓰기</button>
+				<button type="button" class="btn btn-info pull-right btn-sm">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+				</button>
+
+				<div role="tabpanel">
+				
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active">
+				    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#board" aria-controls="profile" role="tab" data-toggle="tab">게시판</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#guestbook" aria-controls="messages" role="tab" data-toggle="tab">방명록</a>
+				    </li>
+				    <li role="presentation">
+				    	<a href="#jblog" aria-controls="settings" role="tab" data-toggle="tab">jblog</a>
+				    </li>
+				  </ul>
+				
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="home">s</div>
+				    <div role="tabpanel" class="tab-pane" id="board">aa</div>
+				    <div role="tabpanel" class="tab-pane" id="guestbook">sdf</div>
+				    <div role="tabpanel" class="tab-pane" id="jblog">as</div>
+				  </div>
+				
+				</div>
+			</div> <!-- col-md-10 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</body>
+
+
+</html>

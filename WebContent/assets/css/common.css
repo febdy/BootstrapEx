@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div {
+	border : 0px solid #000000;
+} 
+
+.navbar-brand {
+	padding: 7px 10px 0px 15px;
+}
+
+.profile {
+	width : 160px;
+}
+
+p {
+	margin : 0;
+}
